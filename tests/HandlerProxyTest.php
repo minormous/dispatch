@@ -1,6 +1,6 @@
 <?php
 
-namespace Equip\Dispatch;
+namespace Minormous\Dispatch;
 
 use Eloquent\Phony\Phpunit\Phony;
 use Psr\Http\Message\ServerRequestInterface;

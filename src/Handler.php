@@ -1,6 +1,6 @@
 <?php
 
-namespace Equip\Dispatch;
+namespace Minormous\Dispatch;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;

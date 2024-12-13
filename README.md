@@ -1,25 +1,25 @@
-Equip Dispatch
+Minormous Dispatch
 ==============
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/equip/dispatch.svg)](https://packagist.org/packages/equip/dispatch)
-[![License](https://img.shields.io/packagist/l/equip/dispatch.svg)](https://github.com/equip/dispatch/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/equip/dispatch.svg)](https://travis-ci.org/equip/dispatch)
-[![Code Coverage](https://scrutinizer-ci.com/g/equip/dispatch/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/equip/dispatch/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/equip/dispatch/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/equip/dispatch/?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/minormous/dispatch.svg)](https://packagist.org/packages/minormous/dispatch)
+[![License](https://img.shields.io/packagist/l/minormous/dispatch.svg)](https://github.com/minormous/dispatch/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/minormous/dispatch.svg)](https://travis-ci.org/minormous/dispatch)
+[![Code Coverage](https://scrutinizer-ci.com/g/minormous/dispatch/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/minormous/dispatch/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/minormous/dispatch/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/minormous/dispatch/?branch=master)
 
-An HTTP Interop compatible middleware dispatcher in [Equip](http://equip.github.io/).
+An HTTP Interop compatible middleware dispatcher in [Minormous](http://minormous.github.io/).
 Attempts to be [PSR-1](http://www.php-fig.org/psr/psr-1/), [PSR-2](http://www.php-fig.org/psr/psr-2/),
 [PSR-4](http://www.php-fig.org/psr/psr-4/), [PSR-7](http://www.php-fig.org/psr/psr-7/),
 and [PSR-15](http://www.php-fig.org/psr/psr-15/) compliant.
 
 Heavily influenced by the design of [Tari by ircmaxwell](https://github.com/ircmaxell/Tari-PHP).
 
-For more information, see [the documentation](http://equipframework.readthedocs.org/en/latest/dispatch).
+For more information, see [the documentation](http://minormousframework.readthedocs.org/en/latest/dispatch).
 
 ## Install
 
 ```
-composer require equip/dispatch
+composer require minormous/dispatch
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ the response for output.
 ### Example
 
 ```php
-use Equip\Dispatch\MiddlewareCollection;
+use Minormous\Dispatch\MiddlewareCollection;
 
 // Any implementation of PSR-15 MiddlewareInterface
 $middleware = [
@@ -64,7 +64,7 @@ The `MiddlewareCollection` also implements the `MiddlewareInterface` to allow
 collections to be nested:
 
 ```php
-use Equip\Dispatch\MiddlewareCollection;
+use Minormous\Dispatch\MiddlewareCollection;
 
 // Any implementation of PSR-15 MiddlewareInterface
 $middleware = [
